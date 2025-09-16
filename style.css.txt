@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding:0;
+}
+ body{
+   background-image:url(brigitte-elsner-8jnnN56UQ6Y-unsplash.jpg) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align: center;
+   
+   
+ }
+
+.container{
+  height: 70vh;
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+align-items: center;                                                                                                                                                                                          
+
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+ display: flex;                                                                                  
+ flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  font-size: 8vmin;
+  color: #950952; 
+  background-color: rgb(150, 176, 167);                                                                                                                                                                                                                                                                                                                                                                                           
+}
+#reset-btn{
+  padding: 0.9vmin;
+  font-size: 1rem;
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 150;
+  text-align: center;
+}
+
+.msg-container{
+  height: 100vmin;
+ 
+}
+#msg{
+  padding-top: 50vmin;
+
+  font-size: 7vmin;
+  color: darkred;
+
+}
+
+#new-btn{
+  background-color: black;
+  padding: 0.9vmin;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 150;
+}
+
+.hide{
+  display: none;
+}
